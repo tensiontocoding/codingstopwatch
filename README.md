@@ -1,4 +1,4 @@
-# codingstopwatch 코딩스톱워치 
+# 코딩스톱워치 (coding stopwatch)
 
 ## 1. 기획
 
