@@ -33,4 +33,4 @@
 
 canva를 통해 기본적인 레이아웃을 간단하게 디자인했다.
 
-[https://www.canva.com/design/DAE_R42vVqQ/cotlRiQSyJi10_S9F-wNiw/edit?utm_content=DAE_R42vVqQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton]
+[ https://www.canva.com/design/DAE_R42vVqQ/YJAmvKUDhrkNbg0QajRjIA/view?utm_content=DAE_R42vVqQ&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink ]
