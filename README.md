@@ -20,7 +20,6 @@
 - 달력에서 시간 수정가능
 - 라이트모드/다크모드
 
-
 ## 4. 웹스토리지 선정 (데이터 저장 방법은 어떤걸 써야할까)
 
 [ https://han41858.tistory.com/54 ] 를 참고하니
@@ -32,12 +31,15 @@
 
 [ https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage ] 에서 웬만한 브라우저는 로컬 스토리지를 지원한다는 것을 확인했다.
 
-
-
 ## 5. 기본적인 레이아웃
 
 canva를 통해 기본적인 레이아웃을 간단하게 디자인했다.
 
 [ https://www.canva.com/design/DAE_R42vVqQ/view ]
 
+## 6. 깃허브 contribution 받아오기
 
+[ https://docs.github.com/en/graphql/reference/objects#contributionscollection ]
+[ https://github.com/Didericis/github-contributions-api ]
+
+api를 이용해 달력에 표시할 contribution 값을 받아온다.
