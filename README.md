@@ -38,7 +38,6 @@
 
 canva를 통해 기본적인 레이아웃을 간단하게 디자인했다.
 
-<img src="https://www.canva.com/design/DAE_R42vVqQ/view" width="400" height="400">
-
+[ https://www.canva.com/design/DAE_R42vVqQ/view ]
 
 
