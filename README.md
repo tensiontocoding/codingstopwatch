@@ -2,8 +2,7 @@
 
 ## 1. 기획
 
-고등학교때 하루하루 공부시간 측정용으로 사용했던 스톱워치에서 착안하여 
-
+고등학교때 하루하루 공부시간 측정용으로 사용했던 스톱워치에서 착안하여 <br>
 프로젝트도 만들고, 코딩 실력도 늘리고, 코딩 텐션 유지에 도움이 되는 코딩 스톱 워치를 기획하였다.
 
 ## 2. 목표
@@ -39,7 +38,8 @@ canva를 통해 기본적인 레이아웃을 간단하게 디자인했다.
 
 ## 6. 깃허브 contribution 받아오기
 
-[ https://docs.github.com/en/graphql/reference/objects#contributionscollection ]
+api를 이용해 달력에 표시할 contribution 값을 받아온다.
+
+[ https://docs.github.com/en/graphql/reference/objects#contributionscollection ] <br>
 [ https://github.com/Didericis/github-contributions-api ]
 
-api를 이용해 달력에 표시할 contribution 값을 받아온다.
