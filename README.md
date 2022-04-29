@@ -3,12 +3,13 @@
 ## 1. 기획
 
 고등학교때 하루하루 공부시간 측정용으로 사용했던 스톱워치에서 착안하여 
+
 프로젝트도 만들고, 코딩 실력도 늘리고, 코딩 텐션 유지에 도움이 되는 코딩 스톱 워치를 기획하였다.
 
 ## 2. 목표
-간단하면서 가시성 높은 코딩 시간 기록용 앱
-요소들의 움직임은 부드럽게
-디자인은 단순,깔끔,세련되게
+- 간단하면서 가시성 높은 코딩 시간 기록용 앱
+- 요소들의 움직임은 부드럽게
+- 디자인은 단순,깔끔,세련되게
 
 ## 3. 기능
 
@@ -37,4 +38,4 @@
 
 canva를 통해 기본적인 레이아웃을 간단하게 디자인했다.
 
-[ https://www.canva.com/design/DAE_R42vVqQ/YJAmvKUDhrkNbg0QajRjIA/view?utm_content=DAE_R42vVqQ&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink ]
+<img src="https://www.canva.com/design/DAE_R42vVqQ/YJAmvKUDhrkNbg0QajRjIA/view?utm_content=DAE_R42vVqQ&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink" width="400" height="400">
