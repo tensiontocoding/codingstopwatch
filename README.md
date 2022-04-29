@@ -9,7 +9,7 @@
 ## 2. 기능
 
 - 코딩 스톱 워치
-- 가시화를 위한 시간 그래프
+- 가시화를 위한 날짜-시간 그래프
 - 달력에 시간표시
 - 깃허브 커밋시 달력에 횟수 표시
 - 달력에서 시간 수정가능
@@ -27,3 +27,10 @@
 
 [ https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage ] 에서 웬만한 브라우저는 로컬 스토리지를 지원한다는 것을 확인했다.
 
+
+
+## 4. 기본적인 레이아웃
+
+canva를 통해 기본적인 레이아웃을 간단하게 디자인했다.
+
+[https://www.canva.com/design/DAE_R42vVqQ/cotlRiQSyJi10_S9F-wNiw/edit?utm_content=DAE_R42vVqQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton]
