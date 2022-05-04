@@ -1,9 +1,12 @@
 # 코딩스톱워치 (coding stopwatch)⏰
 
-## 1. 기획
+## 1. 기획 의도
 
 고등학교때 하루하루 공부시간 측정용으로 사용했던 스톱워치에서 착안하여 <br>
 프로젝트도 만들고, 코딩 실력도 늘리고, 코딩 텐션 유지에 도움이 되는 코딩 스톱 워치를 기획하였다.
+
+canva를 이용해 기본적인 레이아웃을 간단하게 디자인했다.
+[ https://www.canva.com/design/DAE_R42vVqQ/view ]
 
 ## 2. 목표
 - 간단하면서 가시성 높은 코딩 시간 기록용 앱
@@ -19,7 +22,10 @@
 - 달력에서 시간 수정가능
 - 라이트모드/다크모드
 
-## 4. 웹스토리지 선정 (데이터 저장 방법은 어떤걸 써야할까)
+
+## 4. 기능 구현
+
+### 4-1. 웹스토리지 선정 (데이터 저장 방법은 어떤걸 써야할까)
 
 [ https://han41858.tistory.com/54 ] 를 참고하니
 
@@ -30,16 +36,16 @@
 
 [ https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage ] 에서 웬만한 브라우저는 로컬 스토리지를 지원한다는 것을 확인했다.
 
-## 5. 기본적인 레이아웃
-
-canva를 통해 기본적인 레이아웃을 간단하게 디자인했다.
-
-[ https://www.canva.com/design/DAE_R42vVqQ/view ]
-
-## 6. 깃허브 contribution 받아오기
+### 4-2. 깃허브 contribution 받아오기
 
 api를 이용해 달력에 표시할 contribution 값을 받아온다.
 
 [ https://docs.github.com/en/graphql/reference/objects#contributionscollection ] <br>
 [ https://github.com/Didericis/github-contributions-api ]
+
+## 5. 기본적인 UI/UX
+
+## 6. 최적화
+
+
 
