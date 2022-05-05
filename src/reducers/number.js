@@ -1,4 +1,4 @@
-import * as types from '../actions/ActionTypes';
+import * as types from '../actions/ActionTypes';``
 
 const initialState = { //숫자에 대한 초기값
     number: 0
