@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import App from './App';
+import App from './containers/App';
 import { createStore } from 'redux'; // 스토어생성
 import reducers from './reducers'; // 리듀서함수
 import { Provider } from 'react-redux'; // Store -> connect() -> Component 불러다 사용
