@@ -62,7 +62,7 @@ contributions은 호출 값으로 저장할 필요가 없다.
 apollo-graphql을 이용해 넘어오는 값을 한번 필터링해도 좋을거 같다.
 
 ### 2-3. chart.js로 그래프 구현
-[ https://velog.io/@eunjin/React-리액트-그래프차트-라이브러리-모음 ]를 보면 여러가지 react에서 이용할수 있는 라이브러리를 소개하고 있다. 그 중에서 chart.js를 선택했다. (유명하고 가볍고 친절한 설명) 딱히 큰 이유는 없다.
+[ https://velog.io/@eunjin/React-리액트-그래프차트-라이브러리-모음 ]를 보면 여러가지 react에서 이용할수 있는 라이브러리를 소개하고 있다. 그 중에서 chart.js를 선택했다. 유명하고 가볍고 친절한 설명이 장점이라고 하는데 딱히 큰 이유는 없다.
 
 - 최근 2주간의 코딩시간과 contributions 표기
 - 서 코딩시간과 contributions가 독립적으로 배치
@@ -108,7 +108,7 @@ UI/UX는 기획 목표에 맞게 기본만 하자는 생각으로 단순, 깔끔
 ### 4-1. typescript 적용
 
 ### 4-2. apollo graphql 적용
- [ https://d2.naver.com/helloworld/4245995 ]
+ [ https://d2.naver.com/helloworld/4245995 ] 참고
 
 ### 4-3. 최적화
 
