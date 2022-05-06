@@ -1,0 +1,10 @@
+{
+  "files": {
+    "main.js": "/codingstopwatch/static/js/main.bcd9efab.js",
+    "index.html": "/codingstopwatch/index.html",
+    "main.bcd9efab.js.map": "/codingstopwatch/static/js/main.bcd9efab.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.bcd9efab.js"
+  ]
+}
