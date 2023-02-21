@@ -5,7 +5,7 @@
 
 ### 1-1. 사용 기술
 html5, css3, js, reactjs, styled-components, gh-pages, moment.js, chart.js, indexedDB
-+ ts, apollo, graphql, vite
+(+ ts, apollo, graphql, vite)
 
 ### 1-2. 기본 레이아웃 디자인
 [ https://www.canva.com/design/DAE_R42vVqQ/view ] canva를 이용해 기본적인 레이아웃 디자인을 만들었다.
@@ -25,10 +25,18 @@ html5, css3, js, reactjs, styled-components, gh-pages, moment.js, chart.js, inde
 - 라이트모드/다크모드
 
 ## 2. 기능 구현
-이 프로젝트의 베이스는 react이다. 함수형 컴포넌트 + hook 조합을 추천하길래 이렇게 구현할 계획이다. (왜 추천하는지는 다음에 알아볼 예정이다.)
+베이스는 react로 react에서 함수형 컴포넌트 + hook 조합을 추천하길래 그렇게 했다.
+클래스형 
+- state, lifeCycle 관련 기능사용 가능하다.
+- 메모리 자원을 함수형 컴포넌트보다 조금 더 사용한다.
+- 임의 메서드를 정의할 수 있다.
+함수형
+- state, lifeCycle 관련 기능사용 불가능 [Hook을 통해 해결 됨]
+- 메모리 자원을 클래스형 컴포넌트보다 덜 사용한다.
+- 컴포넌트 선언이 편하다.
 
 ### 2-1. 웹스토리지 선정
-모두가 사용할 수 있게 브라우저로 코딩시간을 저장할수 있는 웹스토리지를 선택했다. (클라이언트 쪽에서 적용되는 웹 db)
+코딩시간을 저장하는 웹스토리지 선정이다.
 
 [ https://han41858.tistory.com/54 ] 를 보면 추천하는 웹스토리지는 두개이다.
 
@@ -41,7 +49,7 @@ html5, css3, js, reactjs, styled-components, gh-pages, moment.js, chart.js, inde
 
 [ https://runebook.dev/ko/docs/dom/indexeddb_api/using_indexeddb ] <br>
 [ https://developer.mozilla.org/ko/docs/Web/API/IndexedDB_API/Using_IndexedDB ] <br>
-위에 링크로 indexedDB의 사용법을 알아보았다. 의외로 사용에는 어려움이 없어보인다.
+위에 링크로 indexedDB의 사용법을 알아보았다. 사용에는 어려움이 없어보인다.
 
 indexDB로 저장할 data는 두가지이다.
 - 깃허브 아이디 // 나중에 깃허브 아이디를 바꿀수 있게 update를 할 예정이므로 깃허브 아이디 별로 저장공간이 필요
@@ -53,7 +61,7 @@ contributions은 호출 값으로 저장할 필요가 없다.
 [ https://docs.github.com/en/graphql/reference/objects#contributionscollection ] <br>
 [ https://github.com/Didericis/github-contributions-api ] <br>
 [ https://github.com/sallar/github-contributions-api ] <br>
-위 주소를 참고, api를 이용해 달력에 표시할 contributions 값을 받아온다.
+위 링크를 참고, api를 이용해 달력에 표시할 contributions 값을 받아온다.
 
 - 그래프에는 최근 2주간의 기록을 표시
 - 달력에는 해당 월별로 contributions를 표시
@@ -77,16 +85,17 @@ apollo-graphql을 이용해 넘어오는 값을 한번 필터링해도 좋을거
 - 월별 달력 이동
 
 ### 2-5. stopwatch 구현
-[ https://kwanghyuk.tistory.com/185 ] 참고
+~~[ https://kwanghyuk.tistory.com/185 ] [ https://handhand.tistory.com/32 ]~~
+[ https://berkbach.com/react를-사용해-타이머-만들기-9fc164416586 ] 참고
 
 - 스타트를 누르면 측정이 시작 -> 스타트 버튼은 스톱으로 
 - 스톱 누르면 측정 중지 -> 스톱 버튼은 스타트로 
-- 리셋 버튼으로 초기화 가능
+- 리셋 버튼으로 초기화 가능 (알림창)
 
 ### 2-6. 통합 구현
 
 ## 3. UI/UX
-UI/UX는 기획 목표에 맞게 기본만 하자는 생각으로 단순, 깔끔, 명확하면서 부드러운 느낌을 주려고 했다.
+UI/UX는 기획 목표에 맞게 기본만 하자는 생각으로 단순, 깔끔, 명확하면서 부드럽게 구현했다..
 
 ### 3-1. reset css
 [ https://parkjh7764.tistory.com/80 ] 를 참고해 css를 리셋 해주었다.
@@ -95,6 +104,7 @@ UI/UX는 기획 목표에 맞게 기본만 하자는 생각으로 단순, 깔끔
 [ https://intrepidgeeks.com/tutorial/five-methods-of-managing-placement-area-from-react ] 참고
 
 ### 3-3. light/dark 모드 구현
+[ https://levelup.gitconnected.com/dark-mode-in-react-533faaee3c6e ]
 - 상단에 해와 달 표시 
 - 누르면 변경
 
@@ -115,7 +125,6 @@ UI/UX는 기획 목표에 맞게 기본만 하자는 생각으로 단순, 깔끔
 다른사람돌 쓸수 있도록 깃허브 아이디를 입력해서 해당 아이디의 contributions를 받아오는 걸로 변경했다.
 
 ## 5. 후기
-
 혼자하는 미니 프로젝트를 기획하고 구현했고(아직은 구현중이지만) 발전시켜나갈 계획이다. readme에 작성하는게 맞나 싶긴하지만 작업을 위해, 기록을 위해, 포트폴리오를 위해 프로젝트 AtoZ를 적어보았다.
 
 적으면서 느낀 것은 글의 통일성을 유지의 어려움이다. 처음 글을 쓸때는 격식을 차리고 발표하는 느낌으로 적었으나 나중에는 일기를 쓰듯이 글의 느낌이 변하기도 했다. 소제목 같은 경우도 명사로 끝나는 것들과 '~하기'로 끝나는 것들이 뒤섞여 있어 명사로 끝나는 걸로 통일시켰다. 영어 표기와 한글 표기가 혼용된 것은 정리하지 못한게 아쉽다.

@@ -1,6 +1,6 @@
 import React from 'react';
 
-const gragh = () => {
+const Graph = () => {
     return (
         <div>
             
@@ -8,4 +8,4 @@ const gragh = () => {
     );
 };
 
-export default gragh;
+export default Graph;

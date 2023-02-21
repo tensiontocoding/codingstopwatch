@@ -1,11 +1,11 @@
 import React from 'react';
 
-const stopwatch = () => {
+const Stopwatch = () => {
     return (
         <div>
-            
+
         </div>
     );
 };
 
-export default stopwatch;
+export default Stopwatch;
