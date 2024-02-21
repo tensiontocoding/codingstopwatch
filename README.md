@@ -1,5 +1,8 @@
 # 코딩스톱워치 (coding stopwatch) ⏰
 
+[https://github.com/tensiontocoding/imymemine] 로 병합됨
+
+
 ## 1. 기획
 고등학교때 하루하루 공부시간 측정용으로 사용했던 스톱워치에서 착안하여 프로젝트도 만들고, 코딩 실력도 늘리고, 코딩 텐션 유지에도 도움이 되는 웹앱 코딩 스톱 워치를 기획했다.
 
